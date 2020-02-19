@@ -1,0 +1,114 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DocTestForm
+</name>
+</assembly>
+<members>
+<member name="P:DocTestForm.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DocTestForm.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DocTestForm.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.#ctor">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.GetDocuments_StringCompleted">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.GetDocumentsCompleted">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.GetMIMEDocumentsCompleted">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.DocListingRequestCompleted">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestCompleted">
+	<remarks/>
+</member><member name="E:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestXmlCompleted">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocuments_String(System.String)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocuments_StringAsync(System.String)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocuments_StringAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocuments(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocumentsAsync(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetDocumentsAsync(System.Xml.XmlNode,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetMIMEDocuments(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetMIMEDocumentsAsync(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.GetMIMEDocumentsAsync(System.Xml.XmlNode,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.DocListingRequest(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.DocListingRequestAsync(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.DocListingRequestAsync(System.Xml.XmlNode,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequest(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestAsync(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestAsync(System.Xml.XmlNode,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestXml(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestXmlAsync(System.Xml.XmlNode)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.QuoteDocRequestXmlAsync(System.Xml.XmlNode,System.Object)">
+	<remarks/>
+</member><member name="M:DocTestForm.DocUtilsSvc.CsureDocs.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.CsureDocs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetDocuments_StringCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.GetDocuments_StringCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetDocuments_StringCompletedEventArgs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetDocumentsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.GetDocumentsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetDocumentsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetMIMEDocumentsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.GetMIMEDocumentsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.GetMIMEDocumentsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.DocListingRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.DocListingRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.DocListingRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.QuoteDocRequestCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.QuoteDocRequestCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.QuoteDocRequestCompletedEventArgs">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.QuoteDocRequestXmlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:DocTestForm.DocUtilsSvc.QuoteDocRequestXmlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:DocTestForm.DocUtilsSvc.QuoteDocRequestXmlCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

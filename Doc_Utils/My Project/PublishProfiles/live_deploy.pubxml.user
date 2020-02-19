@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>Y:\WEB\coversure.co.uk\secure\ws\utils\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/csdets.dll">
+      <publishTime>04/11/2014 14:27:08</publishTime>
+    </File>
+    <File Include="bin/Csure_Tools.dll">
+      <publishTime>03/20/2014 15:19:17</publishTime>
+    </File>
+    <File Include="bin/DocUtils.dll">
+      <publishTime>04/08/2015 15:29:52</publishTime>
+    </File>
+    <File Include="bin/Doc_Utils.dll">
+      <publishTime>07/25/2016 16:37:22</publishTime>
+    </File>
+    <File Include="bin/Doc_Utils.xml">
+      <publishTime>07/25/2016 16:37:22</publishTime>
+    </File>
+    <File Include="bin/Web.config">
+      <publishTime>07/05/2016 16:01:16</publishTime>
+    </File>
+    <File Include="bin/XmlTools.dll">
+      <publishTime>03/20/2014 15:16:42</publishTime>
+    </File>
+    <File Include="CsureDocs.asmx">
+      <publishTime>04/28/2011 14:11:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/05/2016 16:01:16</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

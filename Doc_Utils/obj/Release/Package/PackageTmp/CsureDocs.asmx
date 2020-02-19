@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="VB" CodeBehind="CsureDocs.asmx.vb" Class="Doc_Utils.CsureDocs" %>

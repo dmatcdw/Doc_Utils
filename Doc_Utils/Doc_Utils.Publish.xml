@@ -1,0 +1,57 @@
+<publishData>
+  <publishTarget publishUrl="\\KAREN\karene\Web\coversure.co.uk\secure\chris\utils\Doc_Utils\">
+    <file relUrl="bin/csdets.dll" publishTime="12/06/2012 14:58:09" />
+    <file relUrl="bin/Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/XmlTools.dll" publishTime="12/05/2012 16:07:46" />
+    <file relUrl="Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/DocUtils.dll" publishTime="11/21/2012 14:38:39" />
+    <file relUrl="bin/Csure_Tools.dll" publishTime="12/10/2012 10:45:10" />
+    <file relUrl="bin/Doc_Utils.dll" publishTime="01/29/2013 17:04:20" />
+    <file relUrl="bin/Doc_Utils.pdb" publishTime="01/29/2013 17:04:20" />
+    <file relUrl="bin/Doc_Utils.xml" publishTime="01/29/2013 17:04:20" />
+    <file relUrl="CsureDocs.asmx" publishTime="04/28/2011 14:11:47" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\WebDev\TestEnvironment\Utilities\Doc_Utils\">
+    <file relUrl="bin/csdets.dll" publishTime="12/06/2012 14:58:09" />
+    <file relUrl="bin/Csure_Tools.dll" publishTime="12/10/2012 10:45:10" />
+    <file relUrl="Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/DocUtils.dll" publishTime="11/21/2012 14:38:39" />
+    <file relUrl="bin/XmlTools.dll" publishTime="12/05/2012 16:07:46" />
+    <file relUrl="bin/Doc_Utils.dll" publishTime="01/24/2013 16:47:06" />
+    <file relUrl="bin/Doc_Utils.pdb" publishTime="01/24/2013 16:47:06" />
+    <file relUrl="bin/Doc_Utils.xml" publishTime="01/24/2013 16:47:06" />
+    <file relUrl="CsureDocs.asmx" publishTime="04/28/2011 14:11:47" />
+  </publishTarget>
+  <publishTarget publishUrl="\\KAREN\karene\Web\coversure.co.uk\secure\ws\utils\">
+    <file relUrl="bin/Doc_Utils.pdb" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="bin/Doc_Utils.dll" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/DocUtils.dll" publishTime="11/21/2012 14:38:39" />
+    <file relUrl="bin/Doc_Utils.xml" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="bin/XmlTools.dll" publishTime="12/05/2012 16:07:46" />
+    <file relUrl="bin/Csure_Tools.dll" publishTime="12/10/2012 10:45:10" />
+    <file relUrl="bin/csdets.dll" publishTime="12/06/2012 14:58:09" />
+    <file relUrl="CsureDocs.asmx" publishTime="04/28/2011 14:11:47" />
+  </publishTarget>
+  <publishTarget publishUrl="\\KAREN\karene\Web\coversure.co.uk\secure\chris\utils\">
+    <file relUrl="bin/csdets.dll" publishTime="12/06/2012 14:58:09" />
+    <file relUrl="bin/Csure_Tools.dll" publishTime="12/10/2012 10:45:10" />
+    <file relUrl="Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/DocUtils.dll" publishTime="11/21/2012 14:38:39" />
+    <file relUrl="bin/XmlTools.dll" publishTime="12/05/2012 16:07:46" />
+    <file relUrl="bin/Doc_Utils.dll" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="bin/Doc_Utils.pdb" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="bin/Doc_Utils.xml" publishTime="12/21/2012 11:01:44" />
+    <file relUrl="CsureDocs.asmx" publishTime="04/28/2011 14:11:47" />
+  </publishTarget>
+  <publishTarget publishUrl="D:\WebDev\LiveEnvironment\Utilities\Doc_Utils\">
+    <file relUrl="bin/csdets.dll" publishTime="08/01/2012 10:51:36" />
+    <file relUrl="Web.config" publishTime="04/26/2012 16:59:10" />
+    <file relUrl="bin/DocUtils.dll" publishTime="11/21/2012 14:38:39" />
+    <file relUrl="bin/XmlTools.dll" publishTime="08/01/2012 16:37:54" />
+    <file relUrl="bin/Doc_Utils.dll" publishTime="11/27/2012 16:49:10" />
+    <file relUrl="bin/Doc_Utils.pdb" publishTime="11/27/2012 16:49:10" />
+    <file relUrl="bin/Doc_Utils.xml" publishTime="11/27/2012 16:49:10" />
+    <file relUrl="CsureDocs.asmx" publishTime="04/28/2011 14:11:47" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,14 @@
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\Web.config
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\Doc_Utils.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\Doc_Utils.pdb
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\Doc_Utils.xml
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\csdets.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\Csure_Tools.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\DocUtils.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\bin\XmlTools.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.Resources.resources
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.vbproj.GenerateResource.Cache
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.dll
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.xml
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.pdb
+C:\Users\chriswa\Documents\Visual Studio 2012\Projects\Doc_Utils\Doc_Utils\obj\Release\Doc_Utils.vbprojResolveAssemblyReference.cache

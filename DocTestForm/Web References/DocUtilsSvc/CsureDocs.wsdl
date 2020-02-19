@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://dmatters.co.uk/webservices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://dmatters.co.uk/webservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://dmatters.co.uk/webservices">
+      <s:element name="GetDocuments_String">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocuments_StringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocuments_StringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocuments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocumentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocumentsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMIMEDocuments">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMIMEDocumentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMIMEDocumentsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocListingRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocListingRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocListingRequestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuoteDocRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuoteDocRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuoteDocRequestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuoteDocRequestXml">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strXmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="QuoteDocRequestXmlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="QuoteDocRequestXmlResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDocuments_StringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocuments_String" />
+  </wsdl:message>
+  <wsdl:message name="GetDocuments_StringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocuments_StringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocuments" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocumentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMIMEDocumentsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMIMEDocuments" />
+  </wsdl:message>
+  <wsdl:message name="GetMIMEDocumentsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMIMEDocumentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="DocListingRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:DocListingRequest" />
+  </wsdl:message>
+  <wsdl:message name="DocListingRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:DocListingRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuoteDocRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:QuoteDocRequest" />
+  </wsdl:message>
+  <wsdl:message name="QuoteDocRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:QuoteDocRequestResponse" />
+  </wsdl:message>
+  <wsdl:message name="QuoteDocRequestXmlSoapIn">
+    <wsdl:part name="parameters" element="tns:QuoteDocRequestXml" />
+  </wsdl:message>
+  <wsdl:message name="QuoteDocRequestXmlSoapOut">
+    <wsdl:part name="parameters" element="tns:QuoteDocRequestXmlResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CsureDocsSoap">
+    <wsdl:operation name="GetDocuments_String">
+      <wsdl:input message="tns:GetDocuments_StringSoapIn" />
+      <wsdl:output message="tns:GetDocuments_StringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocuments">
+      <wsdl:input message="tns:GetDocumentsSoapIn" />
+      <wsdl:output message="tns:GetDocumentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMIMEDocuments">
+      <wsdl:input message="tns:GetMIMEDocumentsSoapIn" />
+      <wsdl:output message="tns:GetMIMEDocumentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DocListingRequest">
+      <wsdl:input message="tns:DocListingRequestSoapIn" />
+      <wsdl:output message="tns:DocListingRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequest">
+      <wsdl:input message="tns:QuoteDocRequestSoapIn" />
+      <wsdl:output message="tns:QuoteDocRequestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequestXml">
+      <wsdl:input message="tns:QuoteDocRequestXmlSoapIn" />
+      <wsdl:output message="tns:QuoteDocRequestXmlSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CsureDocsSoap" type="tns:CsureDocsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocuments_String">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/GetDocuments_String" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocuments">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/GetDocuments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMIMEDocuments">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/GetMIMEDocuments" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocListingRequest">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/DocListingRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequest">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/QuoteDocRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequestXml">
+      <soap:operation soapAction="http://dmatters.co.uk/webservices/QuoteDocRequestXml" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CsureDocsSoap12" type="tns:CsureDocsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocuments_String">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/GetDocuments_String" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocuments">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/GetDocuments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMIMEDocuments">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/GetMIMEDocuments" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocListingRequest">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/DocListingRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequest">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/QuoteDocRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuoteDocRequestXml">
+      <soap12:operation soapAction="http://dmatters.co.uk/webservices/QuoteDocRequestXml" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CsureDocs">
+    <wsdl:port name="CsureDocsSoap" binding="tns:CsureDocsSoap">
+      <soap:address location="http://localhost:62523/CsureDocs.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CsureDocsSoap12" binding="tns:CsureDocsSoap12">
+      <soap12:address location="http://localhost:62523/CsureDocs.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://localhost:62523/CsureDocs.asmx?wsdl" docRef="http://localhost:62523/CsureDocs.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost:62523/CsureDocs.asmx" xmlns:q1="http://dmatters.co.uk/webservices" binding="q1:CsureDocsSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost:62523/CsureDocs.asmx" xmlns:q2="http://dmatters.co.uk/webservices" binding="q2:CsureDocsSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

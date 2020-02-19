@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Doc_Utils
+</name>
+</assembly>
+<members>
+<member name="F:Doc_Utils.LoggingWebserviceExtension._loggingDirectory">
+	<summary>
+ root path for logging
+ </summary>
+</member><member name="T:Doc_Utils.LoggingWebserviceExtension">
+	<summary>
+ LoggingWebserviceExtension
+ 
+ Roughly based on the discussion in http://msdn.microsoft.com/en-us/magazine/cc188761.aspx
+ and http://msdn.microsoft.com/en-us/magazine/cc164007.aspx
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ NOT FOR PRODUCTION
+ 
+ [MG 18/06/2012]
+ </summary>
+</member><member name="T:Doc_Utils.LoggingWebserviceExtensionAttribute">
+	<summary>
+ Simply provides an attribute wrapper for the logging extension
+ </summary>
+</member><member name="P:Doc_Utils.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Doc_Utils.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Doc_Utils.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
